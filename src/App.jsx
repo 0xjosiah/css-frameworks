@@ -7,6 +7,9 @@ import Services from './components/Services';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Bootstrap from './components/Bootstrap';
+import Tailwind from './components/Tailwind';
+import MaterialUI from './components/MaterialUI';
+import StyledComponents from './components/StyledComponents';
 
 function App() {
   return (
@@ -14,7 +17,11 @@ function App() {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Your Logo
+            <img 
+              src={'public/image.png'} 
+              alt="Logo" 
+              style={{ width: '100px' }} 
+            />
           </Typography>
           <Button color="inherit" component={Link} to="/">
             Home
@@ -22,14 +29,14 @@ function App() {
           <Button color="inherit" component={Link} to="/bootstrap">
             Bootstrap
           </Button>
-          <Button color="inherit" component={Link} to="/services">
-            Services
+          <Button color="inherit" component={Link} to="/tailwind">
+            Tailwind
           </Button>
-          <Button color="inherit" component={Link} to="/portfolio">
-            Portfolio
+          <Button color="inherit" component={Link} to="/mui">
+            Material UI
           </Button>
-          <Button color="inherit" component={Link} to="/contact">
-            Contact
+          <Button color="inherit" component={Link} to="/styled-components">
+            styled-components
           </Button>
         </Toolbar>
       </AppBar>
@@ -42,6 +49,9 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/bootstrap" element={<Bootstrap />} />
+          <Route path="/tailwind" element={<Tailwind />} />
+          <Route path="/mui" element={<MaterialUI />} />
+          <Route path="/styled-components" element={<StyledComponents />} />
         </Routes>
       </Container>
     </BrowserRouter>
