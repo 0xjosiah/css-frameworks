@@ -10,7 +10,7 @@ function Tailwind() {
           
           {/* Text content (66%) */}
           <div className="w-full md:w-2/3 p-6">
-            <h2 className="text-xl font-bold mb-4">Card Title</h2>
+            <h2 className="text-xl font-bold mb-4">Tailwind CSS</h2>
             <p className="text-gray-600 mb-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 

@@ -19,6 +19,9 @@ function MaterialUI() {
             height="300"
           />
           <CardContent sx={{ width: '66%' }}>
+            <Typography variant="h5" gutterBottom>
+              Material UI
+            </Typography>
             <Typography variant="body1">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 

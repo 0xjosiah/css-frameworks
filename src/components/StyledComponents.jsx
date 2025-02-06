@@ -25,6 +25,13 @@ const ContentWrapper = styled.div`
   padding: 20px;
 `;
 
+const Title = styled.h1`
+  font-size: 24px;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+  font-weight: 600;
+`;
+
 const Button = styled.button`
   background-color: #3f51b5;
   color: white;
@@ -46,6 +53,7 @@ function StyledComponents() {
       <Card>
         <ImagePlaceholder />
         <ContentWrapper>
+          <Title>styled-components</Title>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
