@@ -6,6 +6,7 @@ import About from './components/About';
 import Services from './components/Services';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import Bootstrap from './components/Bootstrap';
 
 function App() {
   return (
@@ -18,8 +19,8 @@ function App() {
           <Button color="inherit" component={Link} to="/">
             Home
           </Button>
-          <Button color="inherit" component={Link} to="/about">
-            About
+          <Button color="inherit" component={Link} to="/bootstrap">
+            Bootstrap
           </Button>
           <Button color="inherit" component={Link} to="/services">
             Services
@@ -40,6 +41,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/bootstrap" element={<Bootstrap />} />
         </Routes>
       </Container>
     </BrowserRouter>
